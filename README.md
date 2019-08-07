@@ -1,6 +1,6 @@
 # resume-template
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+*A simple Jekyll + GitHub Pages powered resume template based on Andy Boutte resume https://github.com/aboutte/resume.*
 
 # Running locally
 

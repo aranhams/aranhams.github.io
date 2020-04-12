@@ -853,3 +853,40 @@ a.newer-posts:hover {
 .page-footer .page-tag a:hover {
   text-decoration: underline;
 }
+
+.tags {
+  margin: 0;
+  padding: 10px;
+}
+
+.tags li {
+  display: inline-block;
+  margin: 5px;
+  list-style: none;
+}
+
+.tags li a {
+  text-decoration: none;
+  color: #263959;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ecf0f1;
+  background-color: #fafafa;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.tags li a:hover {
+  background-color: #ecf0f1;
+}
+
+.tag-list span a {
+  text-decoration: none;
+  color: #263959;
+}
+
+.tag-list span a:hover {
+  text-decoration: underline;
+  opacity: .8;
+}

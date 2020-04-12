@@ -11,6 +11,16 @@ title: Home
         {{ post.title }}
       </a>
     </h2>
+    {% if post.tags.size > 0 %}
+      <span class="page-tag">
+        [&nbsp;
+        {% for tag in post.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a class="no-underline" href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
+        {% endfor %}
+        ]
+      </span>
+    {% endif %}
     <!-- {{ post.content }} -->
     <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
     <span class="post-date">{{ post.date | date_to_string }}</span>

@@ -6,6 +6,12 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+
+  <div class="page-tag">
+    {% for tag in page.tags %}
+      <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
+    {% endfor %}
+  </div>
 </div>
 
 {% if site.related_posts.size >= 1 %}
@@ -25,3 +31,5 @@ layout: default
   </ul>
 </div>
 {% endif %}
+
+{% include disqus.html %}

@@ -1,7 +1,13 @@
 # Setup
-title:               mattslv
+title:               mattslv@localhost
 tagline:             '#'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         "Hi, I`m a cyber security researcher and encryption engineer. 
+                      I love building and breaking things to learn how they work. In my free time I play CTF
+                      with the <a href='http://deadlock.team/'>Deadlock Team</a>."
+                      # I currently work in a Brazilian 
+                      # research center with research and development of security and applied encryption 
+                      # softwares. Looking forward to taking on a new challenge and working with talented, 
+                      # passionate and dedicated people.'
 url:                 https://mattslv.github.io
 baseurl:             ''
 paginate:            5
@@ -12,7 +18,7 @@ author:
   name:              Matheus Aranha
   url:               https://mattslv.github.io
   email:             aranha.mss@gmail.com
-  img:               avatar.jpg # add your photo
+  img:               avatar.png # add your photo
   about:             I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
   twitter:           mattslv
   facebook: # add your Facebook handle

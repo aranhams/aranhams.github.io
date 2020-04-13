@@ -1,5 +1,5 @@
 # Setup
-title:               aranha@localhost
+title:               mattslv@aranha
 tagline:             '#'
 description:         "Hi, I`m a cyber security researcher and encryption engineer. 
                       I love to build and break things to learn how they work. In my free time I play CTF
@@ -19,11 +19,11 @@ author:
   url:               https://mattslv.github.io
   email:             aranha.mss@gmail.com
   img:               avatar.png # add your photo
-  about:             I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-  twitter:           mattslv
+  # about:             I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+  twitter:           mattwslv
   facebook: # add your Facebook handle
   github:            mattslv # add your Github handle
-  linkedin: # add your Linkedin handle
+  linkedin:          mattslv
 
 # Disqus
 discus-identifier: mattslv # add your discus identifier

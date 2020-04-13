@@ -1,5 +1,5 @@
 # Setup
-title:               mattslv@localhost
+title:               me@aranha
 tagline:             '#'
 description:         "Hi, I`m a cyber security researcher and encryption engineer. 
                       I love to build and break things to learn how they work. In my free time I play CTF
@@ -24,6 +24,9 @@ author:
   facebook: # add your Facebook handle
   github:            mattslv # add your Github handle
   linkedin: # add your Linkedin handle
+
+# Disqus
+discus-identifier: mattslv # add your discus identifier
 
 # Gems
 plugins:
